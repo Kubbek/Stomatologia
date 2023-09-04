@@ -7,6 +7,10 @@
     padding: 0 50px;
 }
 
+.carousel-mobile{
+    display: none;
+}
+
 .wrapper {
     max-width: 2400px;
     position: relative;
