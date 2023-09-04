@@ -160,7 +160,7 @@ footer p {
     .about-img {
       position: relative;
       min-height: 400px;
-      min-width: 100%;
+      width: 100%;
       margin-left: 38px;
       border: none
     }
