@@ -1,0 +1,110 @@
+
+.services-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.services-main:nth-child(1) {
+    transition-delay: 200ms;
+}
+
+.services-main:nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.services-main:nth-child(3) {
+    transition-delay: 600ms;
+}
+
+.services-main:nth-child(4) {
+    transition-delay: 800ms;
+}
+
+.services-main:nth-child(5) {
+    transition-delay: 1000ms;
+}
+
+.services-main:nth-child(6) {
+    transition-delay: 1200ms;
+}
+
+.services-main:nth-child(7) {
+    transition-delay: 10s;
+}
+
+.card {
+    margin: auto;
+    height: 60rem;
+    width: 40rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.card-logo {
+    height: 40%;
+    background-color: var(--clr-main);
+    border: 1.5px solid var(--clr-mid);
+    border-radius: 10%;
+    -webkit-box-shadow: 0px -9px 31px -7px rgba(19, 177, 146, 1);
+-moz-box-shadow: 0px -9px 31px -7px rgba(19, 177, 146, 1);
+box-shadow: 0px -9px 31px -7px rgba(19, 177, 146, 1);
+    
+}
+
+.card-img {
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom:5% ;
+}
+
+.card-text h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--clr-dar);
+    padding-bottom: 10%;
+}
+
+h3 span {
+    font-size: 2rem;
+    color: var(--clr-mid);
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(235, 233, 230);
+    margin: auto;
+    width: 90%;
+    min-height: 40rem;
+    border: 1.5px solid var(--clr-mid);
+    border-radius: 10%;
+    -webkit-box-shadow: 0px 6px 31px -7px rgba(19, 177, 146, 1);
+    -moz-box-shadow: 0px 6px 31px -7px rgba(19, 177, 146, 1);
+    box-shadow: 0px 6px 31px -7px rgba(19, 177, 146, 1);
+}
+
+.card-text p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--clr-main);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.title {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    width: 100%;
+    margin: auto;
+}
+
+
+.center {
+ width: fit-content;
+margin: auto;}
+

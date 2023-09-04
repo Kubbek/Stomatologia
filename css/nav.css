@@ -1,0 +1,122 @@
+
+  
+  .primary-header {
+    border-bottom: var(--size-100) solid var(--clr-mid);
+    background-color: var(--clr-main);
+    width: 100%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nav-wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-main);
+    padding: 1rem;
+
+  }
+
+  .logo-wrapper {
+    display: flex;
+    margin-left: 2rem;
+    gap: 4rem;
+  }
+  
+  .mobile-nav-toggle {
+    display: none;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: clamp(var(--size-500), 5vw, var(--size-900));
+    margin-right: 5vw;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2.2rem;
+    letter-spacing: var(--size-100);
+  }
+  
+  .nav-list a:hover,
+  .nav-list a:focus {
+    color: var(--clr-mid);
+  }
+  
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: var(--clr-mid);
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--clr-mid);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  @media (max-width: 1000px) {
+    .primary-navigation {
+      display: none;  
+      position: fixed;
+      padding: var(--size-700);
+      inset: 7rem var(--size-400) auto;
+      max-width: 25rem;
+      background: var(--clr-neutral-100);
+      border-radius: var(--size-100);
+      box-shadow: 0 0 0.75em rgb(0, 0, 0, 0.05);
+    }
+  
+    .primary-header[data-overlay]::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0 / 0.8));
+    }
+  
+    .nav-list {
+      display: grid;
+      gap: var(--size-900);
+      text-align: center;
+      font-weight: var(--fw-bold);
+    }
+  
+    .primary-navigation[data-visible] {
+      display: block;
+    }
+  
+    .mobile-nav-toggle {
+      display: block;
+      position: fixed;
+      top: var(--size-600);
+      right: var(--size-400);
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+      padding: 0.5em;
+    }
+  
+    .mobile-nav-toggle .icon-close {
+      display: none;
+    }
+  }
+
