@@ -74,7 +74,7 @@
     transform-origin: bottom left;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     .primary-navigation {
       display: none;  
       position: fixed;
