@@ -110,7 +110,7 @@ footer p {
 }
 
 
-@media (max-width 1800px){
+@media (max-width: 1800px){
   .about-us{
     margin-top: 20vh;
   }
@@ -122,10 +122,11 @@ footer p {
       display: none;
     }
     .primary-navigation {
+      width: 100vw;
       font-size: 40px;
+      margin-top: 20px;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 20px;
       background-color: #19554b;
 
     }
@@ -136,7 +137,7 @@ footer p {
     }
 
     .about-text{
-      padding-top: 120px;
+
       width: 100%;
     }
 
@@ -170,47 +171,22 @@ footer p {
       margin-bottom: 5vh;
     }
 
-    .card {
-      margin: auto;
-      height: 30vh;
-      width: 40%;
-      margin-left: 2vw;
-      margin-right: 2vw;
-      margin-bottom: 10vh;
-  } 
-  .card-text {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(235, 233, 230);
-    margin: auto;
-    width: 90%;
-    min-height: 20rem;
-    border: 1.5px solid var(--clr-mid);
-    border-radius: 10%;
-    -webkit-box-shadow: 0px 6px 31px -7px rgba(19, 177, 146, 1);
-    -moz-box-shadow: 0px 6px 31px -7px rgba(19, 177, 146, 1);
-    box-shadow: 0px 6px 31px -7px rgba(19, 177, 146, 1);
-}
-  .card-text h3 {
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--clr-dar);
-    padding-bottom: 10%;
+
+.card-img {
+  width: 50%;
+  padding-top: 0 ;
 }
 
-h3 span {
-  font-size: 1.2rem;
-  color: var(--clr-mid);
+.card-text {
+  margin-top: 2vh;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 .card-text p {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--clr-main);
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: 15px;
 }
 .carousel{
   min-width: 100%;
@@ -225,6 +201,10 @@ h3 span {
 }
 .carousel span:last-child {
   right: -35px;
+}
+
+.google-maps {
+  height: 300px;
 }
     footer{
       padding-top: 5vh;
