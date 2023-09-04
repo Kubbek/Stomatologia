@@ -110,6 +110,12 @@ footer p {
 }
 
 
+@media (max-width 1800px){
+  .about-us{
+    margin-top: 20vh;
+  }
+}
+
 @media (max-width:1200px) {
 
     .logo-nav{

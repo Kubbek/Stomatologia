@@ -32,7 +32,7 @@
 }
 
  h1  {
-    font-size: 3rem;
+    font-size: clamp(20px, 7rem, 10rem);
     font-weight: 700;
     white-space: nowrap;
     color: var(--clr-dark);
@@ -40,7 +40,7 @@
 }
 
 h1 span {
-    font-size: 70px;
+    font-size: clamp(20px, 7rem, 10rem);
     font-weight: 700;
     color: var(--clr-mid);
   
