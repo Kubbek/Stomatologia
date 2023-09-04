@@ -109,9 +109,6 @@ footer p {
   text-decoration: underline;
 }
 
-.title {
-
-}
 
 @media (max-width: 1800px){
   .about-us{
@@ -129,6 +126,10 @@ footer p {
 
   .about-img {
     top:2%
+  }
+
+  .card {
+    width: 300px;
   }
 }
 
