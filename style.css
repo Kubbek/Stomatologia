@@ -126,6 +126,10 @@ footer p {
   h1 span {
     font-size: 4rem;
   }
+
+  .about-img {
+    top:2%
+  }
 }
 
 @media (max-width:1200px) {

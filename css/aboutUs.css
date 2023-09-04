@@ -6,7 +6,7 @@
 
 .about-img{
     position: absolute;
-    right: 5%;
+    right:0;
     top:10%;
     min-width: 300px;
     max-width: 50%;
