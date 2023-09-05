@@ -110,7 +110,7 @@ footer p {
 }
 
 
-@media (max-width: 1800px){
+@media (max-width: 2000px){
   .about-us{
     margin-top: 20vh;
   }
@@ -125,13 +125,30 @@ footer p {
   }
 
   .about-img {
-    top:2%
+    top:0;
+    right:5%;
   }
 
   .card {
-    width: 300px;
+    width: 400px;
   }
+
+  .card-text p {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 30px;
+  
 }
+
+h3 span {
+    font-size: 30px;
+    
+}
+}
+
+
 
 @media (max-width:1200px) {
 

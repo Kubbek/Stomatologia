@@ -47,8 +47,7 @@ h1 span {
 }
 
 .about-text p {
-    font-size: clamp(1rem,2rem,3rem);
-    max-width: 80%;
+    max-width: 90%;
     color: var(--clr-dark);
 }
 
