@@ -81,7 +81,7 @@ h3 span {
 @media (max-width: 1200px) {
 
     .about-us {
-        height: 100vh;
+        margin-top: 30vh;
     }
 
     .mobile-list {
