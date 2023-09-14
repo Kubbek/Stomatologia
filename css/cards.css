@@ -80,10 +80,17 @@ h3 span {
 
 @media (max-width: 1200px) {
 
+    .about-us {
+        height: 100vh;
+    }
+
     .mobile-list {
         display: inline-block;
     }
 
+    .mobile-list li {
+        margin-left: 20%;
+    }
 
     .services {
         display: none;
