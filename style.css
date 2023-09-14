@@ -35,7 +35,7 @@ section {
   margin: auto;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 2800px;
   width: 100%;
 }
@@ -110,15 +110,22 @@ footer img {
   height: 6vh;
 }
 .phone {
-  font-size: 15px;
-  letter-spacing: 2px;
+  font-size: 25px;
+  letter-spacing: 1px;
   font-weight: 700;
   color: black;
   margin-bottom: 0.5vh;
   text-decoration: none;
 }
 
-@media (max-width: 2000px) {
+.phone-icon {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+
+}
+
+
+/* @media (max-width: 2000px) {
   .about-us {
     margin-top: 20vh;
   }
@@ -138,7 +145,7 @@ footer img {
 
   .card {
     width: 400px;
-    min-height: 80vh;
+    min-height: 50vh;
   }
 
   .card-text p {
@@ -152,7 +159,7 @@ footer img {
   h3 span {
     font-size: 30px;
   }
-}
+} */
 
 @media (max-width: 1200px) {
   .logo-nav {
@@ -189,7 +196,7 @@ footer img {
   }
 
   .about-text p {
-    font-size: 10px;
+    font-size: 16px;
     width: 100%;
   }
 
@@ -207,22 +214,7 @@ footer img {
     margin-bottom: 5vh;
   }
 
-  .card-img {
-    width: 50%;
-    padding-top: 0;
-  }
 
-  .card-text {
-    margin-top: 2vh;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  .card-text p {
-    font-size: 15px;
-  }
   .carousel {
     min-width: 100%;
   }
@@ -242,13 +234,13 @@ footer img {
     height: 300px;
   }
   footer {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     padding-left: 2vw;
   }
 
   .phone {
-    margin-top: 5vh;
+    margin-top: 1vh;
     font-size: 20px;
   }
 }
