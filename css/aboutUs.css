@@ -2,6 +2,7 @@
     margin: auto;
     display: flex;
     flex-direction: row;
+    padding-top: 20vh;
 }
 
 .about-img{

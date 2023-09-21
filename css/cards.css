@@ -14,7 +14,7 @@
     min-height: 30vh;
     height: 60vh;
     min-width: 300px;
-    width:25%;
+    width:33%;
     margin:auto;
     margin-bottom: 2vh;
 }
@@ -24,7 +24,7 @@
 }
 
 .card-logo {
-    height: 30%;
+    height: 40%;
     width: 100%;
  
 }
@@ -77,10 +77,17 @@ h3 span {
     left: 2%;
 }
 
+.mobile-list {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
 
 @media (max-width: 1200px) {
 
+
     .about-us {
+        padding-top: 0;
         margin-top: 15vh;
     }
 
