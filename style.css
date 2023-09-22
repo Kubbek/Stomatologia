@@ -115,6 +115,7 @@ footer img {
   font-weight: 700;
   color: black;
   margin-bottom: 0.5vh;
+  margin-left: 1vw;
   text-decoration: none;
 }
 
@@ -124,10 +125,27 @@ footer img {
 
 }
 
+.phone-line {
+  display: flex;
+}
 
-/* @media (max-width: 2000px) {
+.phone-logo {
+  margin-top: 4px;
+  height: 30px;
+}
+
+
+@media (max-width: 2000px) {
   .about-us {
-    margin-top: 20vh;
+    margin-top: 10vh;
+    padding-top: 0;
+  }
+  
+
+  .about-text p {
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 5%;
   }
 
   h1 {
@@ -140,7 +158,7 @@ footer img {
 
   .about-img {
     top: 0;
-    right: 5%;
+    right: 2%;
   }
 
   .card {
@@ -159,7 +177,7 @@ footer img {
   h3 span {
     font-size: 30px;
   }
-} */
+}
 
 @media (max-width: 1200px) {
   .logo-nav {
@@ -198,7 +216,10 @@ footer img {
   .about-text p {
     font-size: 16px;
     width: 100%;
+
   }
+
+
 
   .about-img {
     position: relative;
