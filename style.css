@@ -283,6 +283,10 @@ footer img {
     display: none;
   }
 
+  .about-img {
+    margin-left: 4%;
+  }
+
   .carousel-mobile {
     display: inline-block;
   }
