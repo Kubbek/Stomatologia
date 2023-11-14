@@ -1,6 +1,8 @@
 const primaryHeader = document.querySelector(".primary-header");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 const primaryNav = document.querySelector(".primary-navigation");
+const scrollTop =document.querySelector(".scroll-top")
+const overlay = document.querySelector(".overlay");
 
 
 //* resize function 
@@ -28,6 +30,13 @@ navToggle.addEventListener("click", () => {
     : navToggle.setAttribute("aria-expanded", true);
   primaryNav.toggleAttribute("data-visible");
   primaryHeader.toggleAttribute("data-overlay");
+});
+
+overlay.addEventListener("click", () => {
+  // Hide the navigation
+  primaryNav.removeAttribute("data-visible");
+  primaryNav.setAttribute("aria-expanded", false);
+  primaryHeader.removeAttribute("data-overlay");
 });
 
 const carousel = document.querySelector(".carousel");
